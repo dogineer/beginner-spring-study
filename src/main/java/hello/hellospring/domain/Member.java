@@ -4,6 +4,7 @@ public class Member {
 
     private long id;
     private String name;
+    private String nickName;
 
     public long getId() {
         return id;
@@ -19,5 +20,9 @@ public class Member {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setNickName(String nickName){
+        this.nickName = nickName;
     }
 }
